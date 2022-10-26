@@ -1,6 +1,6 @@
 package Pack01;
 
-public class Hello {
+public class Hello01 {
 
 
 	// 프로그램 시작점(Entry Point)

@@ -1,11 +1,11 @@
 package Pack01;
 
-public class Hello7 {
+public class Hello07 {
 	public static void main(String[] args) {
 		/*
 		 * and(&&), or(||), not
 		 */
-		
+
 		System.out.println(false && false);
 		System.out.println(false && true);
 		System.out.println(true && false);
@@ -28,8 +28,8 @@ public class Hello7 {
 		System.out.println(true && false && true && true);
 		System.out.println(!(true && false && true && true));
 		System.out.println("ㅡㅡㅡ");
-		//연산 순위 : 산술 > 관계 > 논리
-		System.out.println(3+2>2 && 4-2<10 && 3*3>=8);
+		// 연산 순위 : 산술 > 관계 > 논리
+		System.out.println(3 + 2 > 2 && 4 - 2 < 10 && 3 * 3 >= 8);
 		// 5>2 && 2<10 && 9>=8
 		// true && true && true
 		// true && true

@@ -1,6 +1,6 @@
 package Pack01;
 
-public class Hello3 {
+public class Hello03 {
 
 	public static void main(String[] args) {
 		short a = 200;
@@ -14,7 +14,7 @@ public class Hello3 {
 		System.out.println(Character.MIN_VALUE);
 //		System.out.println(Integer.MAX_VALUE);
 //		System.out.println(Integer.MIN_VALUE);
-		
+
 		System.out.println();
 	}
 
