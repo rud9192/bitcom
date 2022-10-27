@@ -8,15 +8,15 @@ class Tiger11{
 		age = 30;
 	}
 	Tiger11(String n, int a){
-		name = n;
-		age = a;
+		this.name = n;
+		this.age = a;
 	}
 	void showData() {
 		System.out.println(name + " " + age);
 	}
 	@Override
 	public String toString() {
-		return "Tiger4 [name=" + name + ", age=" + age + "]";
+		return "Tiger11 [name=" + name + ", age=" + age + "]";
 	}
 	
 }

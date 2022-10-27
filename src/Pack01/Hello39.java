@@ -26,7 +26,7 @@ public class Hello39 {
 		System.out.println(t2.hashCode());
 		
 		Tiger15 tiger = new Tiger15();
-		tiger.f1().f1().f1().f2().f3();; // 체이닝 기법 자신객체를 리턴받아 계속 .을 찍을 수 있음
+		tiger.f1().f1().f1().f2().f3(); // 체이닝 기법 자신객체를 리턴받아 계속 .을 찍을 수 있음
 	}
 
 }

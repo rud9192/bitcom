@@ -11,7 +11,7 @@ class Tiger12{
 	}
 	@Override
 	public String toString() {
-		return "Tiger4 [name=" + name + ", age=" + age + "]";
+		return "Tiger12 [name=" + name + ", age=" + age + "]";
 	}
 }
 

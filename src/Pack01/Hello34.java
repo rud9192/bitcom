@@ -5,7 +5,9 @@ package Pack01;
  * 생성자를 만들때 디폴트 생성자는 만드는 것을 원칙으로 한다.
  */
 class Tiger10{
-	Tiger10(){}
+	Tiger10(){
+//		System.out.println(2);
+	}
 	
 }
 

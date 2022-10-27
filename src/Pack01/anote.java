@@ -15,7 +15,7 @@
 * 	Ctrl + H : 프로젝트 전체에서 특정 문구(텍스트) 포함 File 검색
 * 	f3 함수, 메소드 추적
 * 	alt + shift + s : setter getter
-* 
+*   f4 : 상속에 관해 볼 수 있음.
 * 
 * 
 */
