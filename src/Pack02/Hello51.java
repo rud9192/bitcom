@@ -25,5 +25,4 @@ public class Hello51 {
 		t.f2();
 		
 	}
-
 }

@@ -18,7 +18,6 @@ class Lion48 extends Tiger48 {
 }
 
 public class Hello48 {
-
 	public static void main(String[] args) {
 		//추상클래스는 개체 생성을 할 수 없다.
 		Lion48 t = new Lion48();
