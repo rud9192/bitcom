@@ -16,6 +16,6 @@
 * 	f3 함수, 메소드 추적
 * 	alt + shift + s : setter getter
 *   f4 : 상속에 관해 볼 수 있음.
-* 
+* 	Ctrl + shift + w : 열린창 전부 닫기
 * 
 */
