@@ -7,7 +7,7 @@ public class Hello72 {
 	public static void main(String[] args) {
 		int width = 8, height = 7;
 //		int width = 7, height = 8;
-/*	
+	
 		try {
 			// 파일을 오픈시킨다.
 			Writer w = new FileWriter("sample.txt");
@@ -17,20 +17,12 @@ public class Hello72 {
 				if(i%2 != 0) {
 					for (int j = 0; j < width; j++) {
 						
-						if(j%2 != 0) {
-							w.write("X ");
-						}else {
-							w.write("O ");
-						}
-						
+						w.write((j%2) != 0 ? "X " : "O ");
 					}w.write("\n");
 				}else {
 					for (int j = 0; j < width; j++) {
-						if(j%2 != 0) {
-							w.write("O ");
-						}else {
-							w.write("X ");
-						}
+
+						w.write((j%2) != 0 ? "O " : "X ");
 					}w.write("\n");
 				}
 			
@@ -38,7 +30,10 @@ public class Hello72 {
 			}
 			w.close();
 		}catch (IOException e) {}
-*/
+		
+		
+
+/*
 		try {
 			Writer w = new FileWriter("sample.txt");
 			
@@ -56,6 +51,7 @@ public class Hello72 {
 		
 		w.close();
 		}catch (IOException e) {}
+*/
 		
 	}
 
