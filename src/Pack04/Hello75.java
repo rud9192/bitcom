@@ -1,7 +1,7 @@
 package Pack04;
 
 import java.util.Scanner;
-
+// 디버그 콘솔을 통하여 해당 스레드가 종료되었는지 확인이 가능하다
 class Lion extends Thread {
 	public void run() {
 		System.out.println("Lion start");
